@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*Header Section*/
+
+header{
+    text-align: center;
+    border: solid;
+}
+
+header h1{
+    color: red;
+}
+
+header p{
+    text-decoration: overline red;
+    color: green;
+    letter-spacing: 15px;
+}
+
+/*this is Navbar*/
+
+nav{
+    display: flex;
+    border: solid;
+}
+
+nav ol{
+	margin: 0;
+	list-style: none;
+}
+
+nav ol li{
+	float: left; 
+}
+
+nav a{
+	color: green;
+	text-decoration: none;
+    margin: 30px;
+	padding: 2px 50px;
+	font-size: 20px;
+}
+
+nav a:hover{
+	background-color: gray;
+	color: white;
+}
+
+.left {
+    display: inline-block;
+    text-align: center;
+    border: solid;
+    position: relative;
+}
+
+.left h3 {
+    border: solid red;
+    border-bottom: 10px solid red;
+    padding: 5px;
+
+}
+
+.left ol {
+    border: solid green;
+}
+
+.right {
+    display: inline-block;
+    margin-left: 68rem;
+    border: solid;
+    text-align: center;
+    position: absolute;
+    height: 212px;
+    width: 140px;
+}
+
+.right h3 {
+    border: solid red;
+    border-bottom: 10px solid red;
+}
+
+.right p {
+    border: solid green;
+}
+
+/*this is footer*/
+
+footer{
+    border: solid;
+    text-align: center;
+}
